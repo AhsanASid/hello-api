@@ -1,6 +1,11 @@
-# hello-api
+# CloudOps Platform -- Microservice Application & Container CI
 
-Small Flask service used to demonstrate a container CI/CD pipeline.
+Hardened Python Flask microservice used to demonstrate containerization, health probes, and automated CI/CD with GitHub Actions and GitHub Container Registry (GHCR).
+
+Part of the **CloudOps Platform** project:
+- **[terraform-platform](https://github.com/AhsanASid/terraform-platform)**: Modular AWS Infrastructure as Code (VPC, IAM, SSM, plan-only EKS)
+- **[platform-manifests](https://github.com/AhsanASid/platform-manifests)**: Kubernetes desired state, Argo Rollouts, Observability, and Velero DR
+- **[hello-api](https://github.com/AhsanASid/hello-api)**: Python microservice & automated GitHub Actions CI pipeline
 
 ## What's here
 - `app.py`: API with `/` and `/healthz` (used by Kubernetes probes)
